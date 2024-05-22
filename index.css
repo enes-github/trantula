@@ -1,0 +1,146 @@
+body{
+    font-family: "Open-Sans";
+    background-color: #161925;
+}
+
+.orta-cizgi{
+    position: absolute;
+    width: 6px;
+    height: 70%;
+    background-color: rgb(255, 255,255);
+    opacity: 0.4;
+    border-radius: 35px;
+    left: 49.9%;
+    top: 4%;
+    transform: translate(-50%,0);
+}
+
+.alt-cizgi{
+    position: absolute;
+    width: 99%;
+    height: 125px;
+    background-color: #0C2D48;
+    bottom: 0%;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+
+.mik{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #FFAC1C;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,0);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.mik:hover{
+    background-color: #ffb83c;
+}
+
+.mik-resim{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-image: url("resim/mic.png");
+    bottom: 26%;
+    left: 25%;
+}
+
+
+.cevir1{
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    width: 45%;
+    height: 70%;
+    border-radius: 15px;
+    background-color: #1C1F2E;
+
+}
+
+.cevir2{
+    position: absolute;
+    top: 4%;
+    right: 2%;
+    width: 45%;
+    height: 70%;
+    border-radius: 15px;
+    background-color: #1C1F2E;
+
+}
+
+.tani{
+    position: absolute;
+    color: white;
+    left: 2%;
+    opacity: 0.8;
+    font-size: medium;
+
+}
+
+.tani:hover{
+    opacity: 1;
+}
+
+.dil {
+    opacity: 0.8;
+    color: #FAF9F6;
+    left: 10%;
+    bottom: 1%;
+    position: absolute;
+    width: 30%;
+    padding: 30px;
+    font-size: 2em;
+    text-align: center;
+    border: 0px solid #ccc;
+    border-radius: 1px;
+    border-color: #0C2D48;
+    background-color: #0C2D48;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+}
+.dil:hover{
+    opacity: 1;
+}
+
+
+.dil-c {
+    opacity: 0.8;
+    color: #FAF9F6;
+    right: 10%;
+    bottom: 2%;
+    position: absolute;
+    width: 30%;
+    padding: 30px;
+    font-size: 2em;
+    text-align: center;
+    border: 0px solid #ccc;
+    border-radius: 1px;
+    background-color: #0C2D48;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+}
+.dil-c:hover{
+    opacity: 1;
+}
+
+.cevir{
+    position: absolute;
+    color: white;
+    left: 2%;
+    opacity: 0.8;
+    font-size: medium;
+
+}
+
+.cevir:hover{
+    opacity: 1;
+}
